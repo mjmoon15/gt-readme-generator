@@ -23,12 +23,13 @@
   ## Installation 
 
   
-  
-  [Pull the repo from github]("https://github.com/mjmoon15/gt-readme-generator"). Run npm init and npm install. Open the command line to access the app.
+  [Pull the repo from github](https://github.com/mjmoon15/gt-readme-generator). Run npm init and npm install. Open the command line to access the app.
   
   ---
 
   ## Usage
+
+  [A video of the app in use can be found here](https://drive.google.com/file/d/1neI8RcPHzu2UM5fuQWZ7lkSA-QM51OGK/view?usp=sharing)
   
   From the command line, run node index.js and follow prompts. 
 
