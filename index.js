@@ -35,7 +35,7 @@ const questions = [
         type: "checkbox",
         message: "Table of contents:",
         name: "tableOfContents",
-        choices: ["[Installation](#installation)", "\n", "[Usage](#usage)", "\n", "[License](#license)", "\n", "[Contributing](#contributing)", "\n", "[Tests](#tests)", "\n", "[Contact](#contact)"   
+        choices: ["[Installation](#installation)", "[Usage](#usage)", "[License](#license)", "[Contributing](#contributing)", "[Tests](#tests)", "[Contact](#contact)"   
         ]
     },
     {
