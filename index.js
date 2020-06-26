@@ -9,48 +9,60 @@ const questions = [
     {
         type: "input",
         message: "What title do you want to use?",
-        name: "Title"
+        name: "title"
+    },
+    {
+        type: "input",
+        message: "What is your email address?",
+        name: "email"
+    },
+    {
+        type: "input",
+        message: "What is the name of your github repo?",
+        name: "repo"
+    },
+    {
+        type: "input",
+        message: "What is your github username?",
+        name: "username"
     },
     {
         type: "input",
         message: "Give a short description:",
-        name: "Description"
+        name: "description"
     },
     {
-        type: "input",
+        type: "checkbox",
         message: "Table of contents:",
-        name: "Table of Contents"
+        name: "tableOfContents",
+        choices: ["[Installation](#installation)", "[Usage](#usage)", "[Credits](#credits)", "[License](#license)"   
+        ]
     },
     {
         type: "input",
         message: "Describe the installation process:",
-        name: "Installation"
+        name: "installation"
     },
     {
         type: "input",
         message: "Describe how to use the app:",
-        name: "Usage"
+        name: "usage"
     },
     {
         type: "list",
         message: "What type of license would you like to use?",
         choices: ["GNU AGPLv3", new inquirer.Separator(), "Mozilla Public License 2.0", new inquirer.Separator(), "Apache License 2.0", new inquirer.Separator(), "MIT License", new inquirer.Separator(), "Boost Software License 1.0"],
-        name: "Licensing"
+        name: "licensing"
     },
     {
         type: "input",
         message: "Describe the process for contributing",
-        name: "Contributing"
+        name: "contributing"
     },
     {
         type: "input",
         message: "Describe how to test",
-        name: "Tests"
-    },
-    {
-        type: "input",
-        message: "If you have any questions, please contact me at ...",
-        name: "Questions"
+        name: "tests"
     },
 
 ];
