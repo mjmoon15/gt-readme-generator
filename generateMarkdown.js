@@ -51,7 +51,7 @@ function generateMarkdown(data) {
 
   ## Contact
 
-  [Please check out my github portfolio here](https://github.com/${data.username})
+  [Please check out my github portfolio here.](https://github.com/${data.username})
   
 
   [For further questions, please contact me at ${data.email}.](mailto:${data.email}) 
