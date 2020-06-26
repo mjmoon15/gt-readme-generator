@@ -1,7 +1,5 @@
 
   # ReadMe Generator
-
-  ## Badges
   
   ![badmath](https://img.shields.io/github/forks/mjmoon15/gt-readme-generator?style=social)
   
@@ -23,20 +21,28 @@
   ---
 
   ## Installation 
+
   
-  Pull the repo from github. Run npm init and npm install. Open the command line to access the app.
+  
+  [Pull the repo from github]("https://github.com/mjmoon15/gt-readme-generator"). Run npm init and npm install. Open the command line to access the app.
   
   ---
 
   ## Usage
   
   From the command line, run node index.js and follow prompts. 
+
+  ![readme generator 1](assets/readme_generator_screenshot_1.png "Initial prompts in command line")
+
+  ![readme generator 2](assets/readme_generator_screenshot_2.png "Selecting multiple options in the table of contents list")
+
+  ![readme generator 3](assets/readme_generator_screenshot_3.png "Final prompts")
+
+
   
   ---
 
-  ## License
-  
-  MIT License
+  ## MIT License
 
     Copyright (c) [2020] [Mark J Mooney]
 
