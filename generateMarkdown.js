@@ -31,7 +31,7 @@ function generateMarkdown(data) {
   
   ---
 
-  ## Licensing
+  ## License
   
   ${data.licensing}
   
@@ -49,20 +49,15 @@ function generateMarkdown(data) {
   
   ---
 
+  ## Contact
+
   [Please check out my github portfolio here](https://github.com/${data.username})
   
 
   [For further questions, please contact me at ${data.email}.](mailto:${data.email}) 
   
-  
-  
-  
   ---
   © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
-  
-  
-
-
 
 `;
 }

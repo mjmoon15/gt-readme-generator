@@ -18,13 +18,13 @@ const questions = [
     },
     {
         type: "input",
-        message: "What is the name of your github repo?",
-        name: "repo"
+        message: "What is your github username?",
+        name: "username"
     },
     {
         type: "input",
-        message: "What is your github username?",
-        name: "username"
+        message: "What is the name of your github repo?",
+        name: "repo"
     },
     {
         type: "input",
@@ -35,7 +35,7 @@ const questions = [
         type: "checkbox",
         message: "Table of contents:",
         name: "tableOfContents",
-        choices: ["[Installation](#installation)", "[Usage](#usage)", "[Credits](#credits)", "[License](#license)"   
+        choices: ["[Installation](#installation)", "\n", "[Usage](#usage)", "\n", "[License](#license)", "\n", "[Contributing](#contributing)", "\n", "[Tests](#tests)", "\n", "[Contact](#contact)"   
         ]
     },
     {
